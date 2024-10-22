@@ -9,15 +9,40 @@
 
 body{
     font-family: "Quicksand", serif;
+    background-color: white;
 }
 
-.btn-custom{
+.custom-btn{
     background-color: #FE8C45;
     color: white;
 }
 
-.btn-custom:hover{
+.custom-btn:hover{
     color: #FE8C45;
     background-color: white;
     border: 1px solid #FE8C45;
+}
+
+.custom-hover:hover{
+    color: #FE8C45;
+}
+
+.custom-heading{
+    font-size: 4.5rem;
+}
+
+.custom-color{
+    color: #8A47F6;
+}
+
+@media(max-width: 1080px){
+    .custom-heading{
+        font-size: 3.5rem;
+    }
+}
+
+@media(max-width: 530px){
+    .custom-heading{
+        font-size: 2.5rem;
+    }
 }
