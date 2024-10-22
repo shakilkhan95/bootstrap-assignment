@@ -4,6 +4,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Quicksand", serif;
     scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Quicksand", serif;
+}
+
+.btn-custom{
+    background-color: #FE8C45;
+    color: white;
+}
+
+.btn-custom:hover{
+    color: #FE8C45;
+    background-color: white;
+    border: 1px solid #FE8C45;
 }
