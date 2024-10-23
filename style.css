@@ -35,6 +35,10 @@ body{
     color: #8A47F6;
 }
 
+.custom-bg{
+    background-color: #F3EDFE;
+}
+
 @media(max-width: 1080px){
     .custom-heading{
         font-size: 3.5rem;
