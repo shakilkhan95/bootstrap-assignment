@@ -49,6 +49,10 @@ body{
     background-color: #F3EDFE;
 }
 
+.custom-bg2{
+    background-color: #EDE3FE;
+}
+
 .box-shadow {
     box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
 }
